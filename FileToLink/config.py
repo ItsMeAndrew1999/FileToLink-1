@@ -46,4 +46,5 @@ class Strings:
     file_not_found = "⚠️File Not Found, Please resend it again"
     delete_manually_button = "⚠️You can delete it"
     delete_forbidden = "The bot can't delete messages older than 48 hours, you can delete this message manually"
-    force_join = "⚠ Join Bot Channel to use this Bot"
+    
+    

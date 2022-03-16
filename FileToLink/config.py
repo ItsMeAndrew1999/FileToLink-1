@@ -20,6 +20,7 @@ class Config:
 
     Link_Root = f"https://{App_Name}.herokuapp.com/"
     Download_Folder = "Files"
+    Dev_Channel = "shadow_bots"
     Bot_UserName = None  # The bot will set it after starting
     Part_size = 10 * 1024 * 1024  # (10MB) For Pyrogram
     Buffer_Size = 512 * 1024  # For Quart
@@ -34,6 +35,8 @@ class Strings:
     dl_link = "🔗 Download LINK"
     st_link = "🎞 Stream LINK"
     generating_link = "**⏳ Generating Link...**"
+    bot_channel = "📢 Bot Channel"
+    dev_channel = "🤖 Developer"
     fast = "⚡️**The link has been updated to a fast link**"
     update_link = "⚡ Update To Fast Link"
     update_limited = (f"⛔ You can update just {Config.Max_Fast_Processes} link in one time, "
@@ -46,5 +49,4 @@ class Strings:
     file_not_found = "⚠️File Not Found, Please resend it again"
     delete_manually_button = "⚠️You can delete it"
     delete_forbidden = "The bot can't delete messages older than 48 hours, you can delete this message manually"
-    
-    
+    force_join = "⚠ Join Bot Channel to use this Bot"
